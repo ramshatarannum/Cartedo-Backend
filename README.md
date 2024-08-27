@@ -1,24 +1,43 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Cartedo API
 
-Things you may want to cover:
+## Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/ramshatarannum/Cartedo-Backend.git
+    cd Cartedo-Backend
+    ```
+1. Gems:
+    ```sh
+    gem 'bcrypt', '~> 3.1.7'
+    gem 'jwt'
+    ```
 
-* Ruby version
+2. application dependencies:
+    ```sh
+    ruby version : 3.2.2
+    rails version: 7.1.4
+    ```
 
-* System dependencies
+3. Install dependencies:
+    ```sh
+    bundle install
+    ```
 
-* Configuration
+5. Set up the database:
+    ```sh
+    rails db:create
+    rails db:migrate
+    ```
 
-* Database creation
+6. Start the Rails server:
+    ```sh
+    rails server
+    ```
 
-* Database initialization
 
-* How to run the test suite
+## Contact
 
-* Services (job queues, cache servers, search engines, etc.)
+Ramsha Tarannum - [ramshatarannum07@gmail.com](mailto:yramshatarannum07@gmail.com)
 
-* Deployment instructions
-
-* ...
+Project Link: [https://github.com/ramshatarannum/Cartedo-Backend.git](https://github.com/your-username/your-repo-name)
